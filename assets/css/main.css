@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/assets/image/sativa.png");
+}
+
+.navigation a {
+  color: white;
+}
+.navigation a:hover {
+  color: white;
+}
+
+.getpagedown-bg {
+  width: 100%;
+  position: absolute;
+}
+
+.GetPageDown, .getpagedown-bg {
+  height: 90.5vh;
+  background-color: #00798A;
+}
+.GetPageDown .header-word, .getpagedown-bg .header-word {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 120px;
+}
+.GetPageDown .header-word h1, .GetPageDown .header-word h2, .GetPageDown .header-word p, .getpagedown-bg .header-word h1, .getpagedown-bg .header-word h2, .getpagedown-bg .header-word p {
+  margin-bottom: 25px;
+}
+.GetPageDown .header-word h1, .getpagedown-bg .header-word h1 {
+  font-size: 80px;
+}
+.GetPageDown .header-word h2, .getpagedown-bg .header-word h2 {
+  font-size: 40px;
+}
+.GetPageDown .header-word a, .getpagedown-bg .header-word a {
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #FC4065;
+  color: #fff;
+}
+.GetPageDown .header-word a:hover, .getpagedown-bg .header-word a:hover {
+  background-color: red;
+}
+
+.our-services, .our-plan, .contact {
+  margin: 6% 0;
+}
+.our-services h1, .our-plan h1, .contact h1 {
+  color: #00798A;
+  margin-bottom: 3%;
+  font-size: 50px;
+}
+.our-services h2, .our-plan h2, .contact h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-deck .card {
+  width: 30%;
+  background-color: #00798A;
+  text-align: center;
+  padding: 4%;
+  color: #fff;
+}
+
+.lorem {
+  margin-top: 30px;
+}
+.lorem h1, .lorem p {
+  color: #333333;
+}
+.lorem h1 {
+  margin-bottom: 2%;
+}
+
+.wall-street, .projects {
+  background-color: #00798A;
+  padding: 15px 20px;
+  margin-top: 10%;
+}
+.wall-street .featured, .projects .featured {
+  text-align: center;
+}
+.wall-street h3, .projects h3 {
+  font-size: 56px;
+  color: #fff;
+  font-weight: 600;
+}
+.wall-street h4, .projects h4 {
+  font-size: 26px;
+  color: #fff;
+}
+
+.plan-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan-cards .plan-cards-card_title {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 0;
+  margin: 0;
+}
+.plan-cards .card {
+  text-align: center;
+  width: 30%;
+}
+.plan-cards .card .card-body {
+  background-color: #D8D8D8;
+  padding: 10px 0;
+}
+.plan-cards .card .btn {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 0;
+  font-size: 26px;
+}
+.plan-cards .card .button {
+  color: #000;
+  text-decoration: none;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-box .contact-box {
+  margin: 10px;
+}
+
+.end {
+  width: 100%;
+  margin-top: 6%;
+  color: #fff;
+  background-color: #000;
+  padding: 20px 14px;
+}
+.end h1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  margin-top: 10%;
+  margin-left: 14%;
+  margin-bottom: 2%;
+}
